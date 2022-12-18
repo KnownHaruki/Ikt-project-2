@@ -13,58 +13,54 @@
         <header id="fejlec">
             <table id="title_table">
                 <tr>
-                    <td><a href="../CORE/base.html"><img src="../../Sources/home.png" alt="home" id="homebtn"></a></td> <!--!!!IMG!!!-->
+                    <td><a href="../CORE/base.html"><img src="../../Sources/home.png" alt="home"  class="head_link" id="homebtn"></a></td> <!--!!!IMG!!!-->
                     <td rowspan="2"><h1>Osztálykirándulás Balatongyörökre</h1></td>
-                    <td><a href="../aboutus.html"><img src="../../Sources/user_circle.png" alt="user" id="aboutbtn"></a></td><!--!!!IMG!!!-->
+                    <td><a href="../aboutus.html"><img src="../../Sources/user_circle.png" alt="user" class="head_link" id="aboutbtn"></a></td><!--!!!IMG!!!-->
                 </tr>
                 <tr>
-                    <td><a href="https://balatongyorok.hu/" class="basic_txt_link"><p>Helyszín</p></a></td>
-                    <td><a href="https://www.gyorokiifitabor.hu/" class="basic_txt_link"><p>Szállás</p></a></td>
+                    <td><a href="https://balatongyorok.hu/" class="head_link">Helyszín</a></td>
+                    <td><a href="https://www.gyorokiifitabor.hu/" class="head_link">Szállás</a></td>
                 </tr>
             </table>
             <!-- We need an background image in css, file: balaton.png. --><!--!!!IMG!!!-->
         </header>
+
         <nav id="site_navigation">
-            <ul>
-                <li><a href="#place" class="basic_txt_link">Helyszín</a></li>
-                <li><a href="#history" class="basic_txt_link">Balatongyörök története</a></li>
-                <li><a href="#routing" class="basic_txt_link">Elhelyezkedése és megközelítése</a></li>
-                <li><a href="#camp" class="basic_txt_link">Szállás</a></li>
-                <li><a href="#informations" class="basic_txt_link">Röviden a táborról</a></li>
-                <li><a href="#event" class="basic_txt_link">Programlehetőségek</a></li>
-                <li><a href="#quarters" class="basic_txt_link">Szállási ajánlat</a></li>
-            </ul>
+            <dl>
+                <dt><a href="#place" class="nav_link">Helyszín</a>          <br></dt>
+                <dt><a href="#history" class="nav_link">Története</a>       <br></dt>
+                <dt><a href="#routing" class="nav_link">Elhelyezkedése</a>  <br></dt>
+                <dt><a href="#camp" class="nav_link">Szállás</a>            <br></dt>
+                <dt><a href="#informations" class="nav_link">A táborról</a> <br></dt>
+                <dt><a href="#event" class="nav_link">Programok</a>         <br></dt>
+                <dt><a href="#quarters" class="nav_link">Szállás</a>        <br></dt>
+            </dl>
         </nav>
-        <div id="main_div">
+
+        <main id="main_div">
             <div class="placeholder">
-                <div id="paragraph1">
+                <div id="paragraph_1">
+                    <div id="balaton_img"><img src="../../Sources/balaton.png" alt="balaton" style="height: 107%; margin-left: 20px;"></div>
                     <h2 id="place">Balatongyörök</h2>
-                    <h3 id="history">Balatongyörök története</h3>
+                    <h3 id="history">Története</h3>
                     <p>Balatongyörök a Keszthelyi- és a Szigligeti-öböl által határolt földnyúlványon helyezkedik el. A terület az őskor óta lakott volt. A kőkorszakból kőbalta, a Kr.e. III. századból rézfejsze került elő. A Kr.u. III. századból származó római telep és fürdő maradványait tárták fel a Balaton-parttól párszáz méterre a Szépkilátó tövében.</p>
                     <p>A falu életében a változást a 20. század eleje hozta. Ekkor jelentek meg a rendszeres fürdővendégek, 1902-ben megépült a falut átszelő vasút, majd öt év múlva elkészült a strandfürdő is. Az ehhez szükséges területet II. Festetics Tasziló ajándékozta a falunak. Tulajdonjogát azonban megtartotta. Az 1910-es években indult meg a strand parkosítása, s ekkor ültette Lady Hamilton, Festetics Tasziló felesége a ma is látható platánsort. Ebben az időben kapta a ma is ismert Balatongyörök nevet a település.</p>
                     <p>A fürdőtelepet 1920-ban nyilvánították üdülőhellyé, 1932-ben pedig elkészült a strand melletti móló is.</p>
-                    <h3 id="routing">Elhelyezkedése és megközelítése</h3>
+                    <h3 id="routing">Elhelyezkedése</h3>
                     <p>Autóval Balatongyörök könnyedén megközelíthető Budapestről (200 km) az M7-es autópályán, a 170-es lehajtónál lehajtva, Keszthely irányába haladva. Balatongyörökön a távolsági buszok legnagyobb részének megállója van igy busszal is könnyen meg lehet közelíteni. A Balaton északi partján Budapestre közlekedő buszjáratok megállnak, emellett a Tapolca, Szigliget, Veszprém, Székesfehérvár célállomásokig közlekedő buszoknak is van itt megállója.</p>
                 </div>
-                <div>
-                    <img src="../../Sources/balaton.png" alt="balaton" id="balatonimg"><!--!!!IMG!!!-->
-                </div>
             </div>
-            <div class="placeholder">
-                <hr>
-                <div id="paragraph2">
-                    <h2 id="camp">Györöki Ifitábor</h2>
-                    <h3 id="informations">Röviden a táborról</h3>
-                    <p>Közalapítványunk a Balaton északi partján a Szépkilátó alatt üzemelteti Györöki Ifitáborát (218 fő). „B” kategóriájú üdülőnket ajánljuk erdei iskoláknak, üdülő- és sporttáboroknak, gólyatáboroknak, sport és egyéb rendezvényekre, kiránduló csoportok szálláshelyéül május 01-től szeptember 30-ig. Teljes ellátást biztosítunk. Előadótermek, sportpályák, internet - WIFI, saját kert teszi lehetővé a szabadidő kellemes eltöltését</p>
-                </div>
-                <div>
-                    <img src="../../Sources/tabor.jpg" alt="tabor" id="taborimg"><!--!!!IMG!!!-->
-                </div>
+            <hr>
+            <div id="paragraph_2">
+                <div id="tabor_img"><img src="../../Sources/tabor.jpg" alt="tabor" style="width: 97%;"></div>
+                <h2 id="camp">Györöki Ifitábor</h2>
+                <h3 id="informations">A táborról</h3>
+                <p>Közalapítványunk a Balaton északi partján a Szépkilátó alatt üzemelteti Györöki Ifitáborát (218 fő). „B” kategóriájú üdülőnket ajánljuk erdei iskoláknak, üdülő- és sporttáboroknak, gólyatáboroknak, sport és egyéb rendezvényekre, kiránduló csoportok szálláshelyéül május 01-től szeptember 30-ig. Teljes ellátást biztosítunk. Előadótermek, sportpályák, internet - WIFI, saját kert teszi lehetővé a szabadidő kellemes eltöltését</p>
             </div>
             <div class="placeholder">
                 <div id="paragraph3">
                     <hr>
-                    <h2 id="event">Programlehetőségek</h2>
+                    <h2 id="event">Programok</h2>
                 </div>
                 <div class="inner_placeholder">
                     <div id="paragraph4">
@@ -105,10 +101,10 @@
                     Template for attractions.-->
             </div>
             <div class="placeholder">
-                <h2 id="quarters">Szállás és utazás</h2>
+                <h2 id="quarters">Szállás</h2>
                 <a href="../PRICES/györökpricesheet.html"><img src="../../Sources/taborjump.jpg" alt="jumpnext" id="jumpimg"></a><!--!!!IMG!!!--><!--Minimalize the size, like 10%-->
                 <a href="../PRICES/györökpricesheet.html" id="none_particle_link"><p>Kattints ide az árajánlat megtekintéséhez.</p></a>
             </div>
-        </div>    
+        </main>    
     </body>
 </html>

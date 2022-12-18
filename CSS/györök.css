@@ -1,12 +1,22 @@
 body{
-    font-family: Segoe UI;
-    background-color: #fcdfc6;
+    font-family: Bahnschrift;
+    background-color: white;
+    text-align: justify;
+    font-size: 110%;
 }
-
+img{
+    border-radius: 15px;
+}
 /*Fejléc*/
 #fejlec{
-    width: 100%;
+    width: 98.3vw;
+    background-image: url(../Sources/balaton_1.png);
+    background-size: 98.3vw ;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
 }
+
 #title_table{
     width: 100%;
     text-align: center;
@@ -19,27 +29,56 @@ th, td{
 #aboutbtn{
     width: 30%;
 }
+.head_link{
+    text-decoration: none;
+    line-height: 2;
+    color: black;
+    background-color: #0fc268a4;
+    padding: 2.5%;
+    border-radius: 5px;
+    font-size: 130%;
+}
 
 /*Nav*/
+nav{
+    height: 10000px;
+    width: 30vw;
+}
+dl{
+    position:sticky; 
+    top:3px;
+}
+dt{
+    font-size: 145%;
+    line-height: 1.9;
+}
 #site_navigation{
     width: 10%;
     float: left;
-    position:fixed;
 }
-.basic_txt_link{
+.nav_link{
     text-decoration: none;
-    color: blue;
+    color: black;
+    background-color: #0fc268;
+    padding: 2.5%;
+    padding-left: 3%;
+    padding-right: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.400);
 }
 
-
+/*Main*/
 #main_div{
     width: 88%;
     float: right;
 }
-#paragraph1{
-    width: 70%;
-}
-#balatonimg{
+#balaton_img{
+    height: 30vh;
     width: 30%;
     float: right;
+}
+#tabor_img{
+    height: 10%;
+    width: 30%;
+    float: left;
 }
