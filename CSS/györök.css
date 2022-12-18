@@ -1,3 +1,45 @@
 body{
     font-family: Segoe UI;
+    background-color: #fcdfc6;
+}
+
+/*Fejléc*/
+#fejlec{
+    width: 100%;
+}
+#title_table{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+th, td{
+    font-size: 21px;
+}
+#aboutbtn{
+    width: 30%;
+}
+
+/*Nav*/
+#site_navigation{
+    width: 10%;
+    float: left;
+    position:fixed;
+}
+.basic_txt_link{
+    text-decoration: none;
+    color: blue;
+}
+
+
+#main_div{
+    width: 88%;
+    float: right;
+}
+#paragraph1{
+    width: 70%;
+}
+#balatonimg{
+    width: 30%;
+    float: right;
 }
