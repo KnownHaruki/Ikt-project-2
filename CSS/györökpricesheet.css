@@ -5,10 +5,10 @@ body{
     font-size: 110%;
 }
 img{
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
-/*JS*/
+/*!       JS      */
 .checkout {
 	height: 10%;
 	width: 20%;
@@ -18,7 +18,7 @@ img{
 	display: inline-block;
 	/*Nyugodtan átszinezheted, átállíthatod*/
 }
-/*JS*/
+/*!       JS      */
 
 #fejlec{
 	width: 98.3vw;
@@ -28,32 +28,48 @@ img{
 	border-radius: 15px;
 	
 }
-/*Header*/
+
+/*!     Fejléc      */
+#fejlec{
+    width: 98.3vw;
+    background-image: url(../Sources/szepkilato_2.jpg);
+    background-size: 98.3vw ;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
+}
 #title_table{
-	width: 100%;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 th, td{
-	font-size: 21px;
+    font-size: 150%;
+}
+#head_h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+
 }
 #homebtn{
-	width: 17%;
+    width: 17%;
 }
 #aboutbtn{
-	width: 23%;
+    width: 23%;
 }
 .head_link{
-	text-decoration: none;
-	line-height: 2;
-	color: black;
-	background-color: #0fc268a4;
-	padding: 2.5%;
-	border-radius: 5px;
-	font-size: 130%;
+    text-decoration: none;
+    line-height: 2;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2.5%;
+    border-radius: 5px;
+    font-size: 130%;
 }
-/*Nav*/
+
+/*!     Nav     */
 nav{
     height: 1500px;
     width: 30vw;
@@ -72,14 +88,16 @@ dt{
 }
 .nav_link{
     text-decoration: none;
-    color: black;
-    background-color: #0fc268;
+    color: rgb(255, 255, 255);
+    background-color: #0fc268bb;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
     padding: 2.5%;
     padding-left: 3%;
     padding-right: 4%;
     border-radius: 7px;
 }
-/*Main*/
+
+/*!     Main        */
 hr{
     border: #0fc268 solid 2px;
 }
@@ -101,13 +119,23 @@ p{
 	float: right;
 	width: 50%;
 }
+
+/*!     Footer      */
 footer {
-    display: block;
-    background-color: #0fc268a4;
-    color: white;
-    font-size: 80%;
-    text-align: center;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+}
+#foot_a{
+    text-decoration: none;
+}
+#foot_p{
+    color: white;
+    text-align: center;
+    font-size: 110%;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
+    background-color: #0fc268bb;
+    margin-inline: 43%;
+    padding: 0.5%;
+    border-radius: 12px;
 }

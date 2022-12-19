@@ -5,18 +5,18 @@ body{
     font-size: 110%;
 }
 img{
-    border-radius: 15px;
+    border-radius: 13px;
 }
-/*Fejléc*/
+
+/*!     Fejléc      */
 #fejlec{
     width: 98.3vw;
-    background-image: url(../Sources/balaton_1.png);
+    background-image: url(../Sources/szepkilato_2.jpg);
     background-size: 98.3vw ;
     background-repeat: no-repeat;
     border-radius: 15px;
     
 }
-
 #title_table{
     width: 100%;
     text-align: center;
@@ -24,7 +24,12 @@ img{
     justify-content: center;
 }
 th, td{
-    font-size: 21px;
+    font-size: 150%;
+}
+#head_h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
 }
 #homebtn{
     width: 17%;
@@ -36,15 +41,15 @@ th, td{
     text-decoration: none;
     line-height: 2;
     color: black;
-    background-color: #0fc268a4;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 2.5%;
     border-radius: 5px;
     font-size: 130%;
 }
 
-/*Nav*/
+/*!     Nav     */
 nav{
-    height: 10000px;
+    height: 1500px;
     width: 30vw;
 }
 dl{
@@ -61,15 +66,16 @@ dt{
 }
 .nav_link{
     text-decoration: none;
-    color: black;
-    background-color: #0fc268;
+    color: rgb(255, 255, 255);
+    background-color: #0fc268bb;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
     padding: 2.5%;
     padding-left: 3%;
     padding-right: 4%;
     border-radius: 7px;
 }
 
-/*Main*/
+/*!     Main        */
 hr{
     border: #0fc268 solid 2px;
 }
@@ -92,7 +98,6 @@ p{
         height: 107%;
         margin-left: 20px;
     }
-
 #tabor_img-div{
     height: 10%;
     width: 30%;
@@ -116,14 +121,24 @@ p{
 #unindent {
     text-indent: 0%;
 }
-/*Footer*/
+
+/*!     Footer      */
 footer {
-    display: block;
-    background-color: #0fc268a4;
-    color: white;
-    font-size: 80%;
-    text-align: center;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+}
+#foot_a{
+    text-decoration: none;
+}
+#foot_p{
+    color: white;
+    text-align: center;
+    font-size: 110%;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
+    background-color: #0fc268bb;
+    margin-inline: 38.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 12px;
 }
