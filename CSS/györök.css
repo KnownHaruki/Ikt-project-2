@@ -26,8 +26,11 @@ img{
 th, td{
     font-size: 21px;
 }
+#homebtn{
+    width: 17%;
+}
 #aboutbtn{
-    width: 30%;
+    width: 23%;
 }
 .head_link{
     text-decoration: none;
@@ -63,22 +66,47 @@ dt{
     padding: 2.5%;
     padding-left: 3%;
     padding-right: 4%;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.400);
+    border-radius: 7px;
 }
 
 /*Main*/
+hr{
+    border: #0fc268 solid 2px;
+}
+h3{
+    text-indent: 0.5%;
+}
+p{
+    text-indent: 1%;
+}
 #main_div{
     width: 88%;
     float: right;
 }
-#balaton_img{
+#balaton_img-div{
     height: 30vh;
     width: 30%;
     float: right;
 }
-#tabor_img{
+    #balaton_img{
+        height: 107%;
+        margin-left: 20px;
+    }
+
+#tabor_img-div{
     height: 10%;
     width: 30%;
     float: left;
 }
+    #tabor_img{
+        width: 97%;
+    }
+#kilato_img-div{
+    height: 30vh;
+    width: 30%;
+    float: right;
+}
+#kilato_img{
+    width: 96%;
+    margin-left:20px;
+    }
