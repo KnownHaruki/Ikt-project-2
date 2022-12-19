@@ -10,8 +10,8 @@ img{
 
 /*JS*/
 .checkout {
-	height: 200px;
-	width: 400px;
+	height: 10%;
+	width: 20%;
 	margin: 20px;
 	border: 2px solid black;
 	text-align: center;
@@ -55,7 +55,7 @@ th, td{
 }
 /*Nav*/
 nav{
-    height: 10000px;
+    height: 1500px;
     width: 30vw;
 }
 dl{
