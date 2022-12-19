@@ -16,30 +16,32 @@
         </script>
     </head>
     <body>
+<!--Header-->
         <header id="fejlec">
             <table id="title_table">
                 <tr>
-                    <td><a href="../CORE/base.html"><img src="../../Sources/home.png" alt="home" id="homebtn"></a></td> <!--!!!IMG!!!-->
-                    <td><h1>Szállás és utazási ajánlat Balatongyörökre</h1></td>
-                    <td><a href="../aboutus.html"><img src="../../Sources/user_circle.png" alt="user" id="aboutbtn"></a></td><!--!!!IMG!!!-->
+                    <td><a href="../CORE/base.html"><img src="../../Sources/home.png" alt="home" class="head_link" id="homebtn"></a></td> <!--!!!IMG!!!-->
+                    <td rowspan="2"><h1>Szállás és utazási ajánlat Balatongyörökre</h1></td>
+                    <td><a href="../aboutus.html"><img src="../../Sources/user_circle.png" alt="user" class="head_link" id="aboutbtn"></a></td><!--!!!IMG!!!-->
                 </tr>
                 <tr>
-                    <td><a href="https://balatongyorok.hu/" class="basic_txt_link"><p>Helyszín</p></a></td>
-                    <td></td>
-                    <td><a href="https://www.gyorokiifitabor.hu/" class="basic_txt_link"><p>Szállás</p></a></td>
+                    <td><a href="https://balatongyorok.hu/" class="head_link">Helyszín</a></td>
+                    <td><a href="https://www.gyorokiifitabor.hu/" class="head_link">Szállás</a></td>
                 </tr>
             </table>
             <!-- We need an background image in css. --><!--!!!IMG!!!-->
         </header>
+<!--Nav-->
         <nav id="site_navigation">
-            <ul>
-                <li><a href="#paragraph1" class="basic_txt_link">Ellátás és szobák:</a></li>
-                <li><a href="#paragraph2" class="basic_txt_link">Szolgáltatások:</a></li>
-                <li><a href="#paragraph3" class="basic_txt_link">Utazás</a></li>
-                <li><a href="#calc" class="basic_txt_link">Árszámító</a></li>
-            </ul>
+            <dl>
+                <dt><a href="#paragraph1" class="nav_link">Ellátás és szobák:</a></dt>
+                <dt><a href="#paragraph2" class="nav_link">Szolgáltatások:</a></dt>
+                <dt><a href="#paragraph3" class="nav_link">Utazás</a></dt>
+                <dt><a href="#calc" class="nav_link">Árszámító</a></dt>
+            </dl>
         </nav>
-        <div id="main_div">
+<!--Main-->
+        <main id="main_div"><!--Ezt lebegtetheted ballra a main-en belül.-->
             <div class="placeholder">
                 <div id="paragraph1">
                     <h2>Ellátás és szobák:</h2>
@@ -93,7 +95,7 @@
                     Büfé üzemel<br>
                     Erdei iskolák, osztálykirándulások, gólyatáborok, konferenciák, továbbképzések szervezésére alkalmas hely.</p>
                 </div>
-                <div id="paragraph2">
+                <div id="paragraph2"><!--Ezt lebegtetheted jobbra a main-en belül.-->
                     <p><b>Szolgáltatások:</b><br>
                     <ul>
                         <li>WC</li>
@@ -131,17 +133,18 @@
                     <p>Vonatttal a leggyorsabb és legkönnyebb</p>
                     <p>Budapest Déli Pályaudvar->Keszthely->Balatongyörök</p>
                 </div>
+                <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A szöveg még kiegészítést igényel!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                 <div class="checkout" id="calc">
                     <h1 class="title">Utazás és szállás ára</h1>
-                    <p class="price" data-price="7000">7000Ft / fő</p><!--Itt tudod cserélni az árat. Add össze a vonat és szállás árát.-->
+                    <p class="price" data-price="7000">3000Ft + 4000Ft / fő</p><!--Itt tudod cserélni az árat. Add össze a vonat és szállás árát, kivéve a text részben mert ott összeadva írd be.-->
                     <p class="description">Fö/Személy</p>
                     <input type="text" class="quantity" value="1">
                     <p class="total">
                         Total:
-                        <span id="total">7000Ft</span><!--Itt tudod cserélni az árat. Add össze a vonat és szállás árát.-->
+                        <span id="total">7000Ft</span><!--Itt tudod cserélni az árat. Add össze a vonat és szállás árát, remélem tudsz számolni comrade.-->
                     </p>
                 </div><!--Kinda not working but idk why, ez müködött live serveren.-->
-                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!--Core script, pls don't edite it, only if necessary.-->
                 <script id="rendered-js">
                 $(document).ready(function () {
 	                $(".checkout").on("keyup", ".quantity", function () {
@@ -152,9 +155,9 @@
                 });
                 </script>
             </div>
-            <div>
-                <a href="../PLACES/györök.html" id="basic_txt_link"><p>Vissza az előzö oldalra</p></a>
-            </div>
-        </div>
+        </main>
+        <footer>
+            <a href="../PLACES/györök.html" id="basic_txt_link"><p>Vissza az előzö oldalra</p></a>
+        </footer>
     </body>
     </html>
