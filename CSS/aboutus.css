@@ -1,3 +1,54 @@
+<<<<<<< Updated upstream
 /*Ennek az oldalnak adhatunk egy külön kinézetet.*/
 /*Más legyen a tetején a kép.(pl aurora.jpg*/
 /*!     Fejléc      */
+=======
+body{
+    font-family: Bahnschrift;
+    background-color: white;
+    text-align: justify;
+    font-size: 110%;
+}
+img{
+    border-radius: 14px;
+}
+
+/*!     Fejléc      */
+#fejlec{
+    width: 98.3vw;
+    background-image: url(../Sources/szepkilato_2.jpg);
+    background-size: 98.3vw ;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+#title_table{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+th, td{
+    font-size: 150%;
+}
+#head_h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    font-size: 250%;
+}
+#homebtn{
+    width: 17%;
+}
+#aboutbtn{
+    width: 23%;
+}
+.head_link{
+    text-decoration: none;
+    line-height: 2;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2.5%;
+    border-radius: 5px;
+    font-size: 130%;
+}
+>>>>>>> Stashed changes

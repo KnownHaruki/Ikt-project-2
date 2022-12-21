@@ -16,7 +16,6 @@ img{
 	border: 2px solid black;
 	text-align: center;
 	display: inline-block;
-	/*Nyugodtan átszinezheted, átállíthatod*/
 }
 /*!       JS      */
 
@@ -26,7 +25,6 @@ img{
 	background-size: 98.3vw ;
 	background-repeat: no-repeat;
 	border-radius: 15px;
-	
 }
 
 /*!     Fejléc      */
@@ -36,7 +34,6 @@ img{
     background-size: 98.3vw ;
     background-repeat: no-repeat;
     border-radius: 15px;
-    
 }
 #title_table{
     width: 100%;
@@ -51,7 +48,6 @@ th, td{
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
-
 }
 #homebtn{
     width: 17%;
