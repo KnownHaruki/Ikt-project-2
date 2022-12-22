@@ -18,7 +18,7 @@ a{
     background-size: 98.3vw ;
     background-repeat: no-repeat;
     border-radius: 15px;
-    height: 15vh;
+    height: 13.5vh;
 }
 #title_table{
     width: 98.3vw;
@@ -55,7 +55,8 @@ th, td{
 }
 /*!     Main      */
 div{
-    width: 45vw;
+    width: 60vw;
+    margin-inline: 20vw;
 }
 h3{
     text-indent: 0.8vw;
@@ -63,4 +64,7 @@ h3{
 p{
     text-indent: 1vw;
     margin-left: 1.5vw;
+}
+.zene_a{
+    color: #1ed760;
 }
