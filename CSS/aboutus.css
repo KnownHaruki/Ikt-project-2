@@ -11,6 +11,7 @@ a{
     text-decoration: none;
     color:deepskyblue;
 }
+
 /*!     Fejléc      */
 #fejlec{
     width: 98.3vw;
@@ -53,6 +54,7 @@ th, td{
     border-radius: 5px;
     font-size: 130%;
 }
+
 /*!     Main      */
 div{
     width: 60vw;

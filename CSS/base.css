@@ -1,14 +1,12 @@
 body{
-  background-color: rgb(40, 40, 43);
+  background-color: rgb(40, 40, 40);
 }
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1vh;
 }
-
 .a{
   transition: 0.4s ease;
   display: block;
@@ -16,19 +14,16 @@ body{
   width: 100vw;
   object-fit: cover;
 }
-
 .aa{
   text-decoration: none;
   color: white;
 }
-
 .image{
   height: 31vh;
   width: 98vw;
   object-fit: cover;
   border-radius: 15px;
 }
-
 .middle {
   transition: 0.4s ease 0.2s;
   opacity: 0;
@@ -43,11 +38,9 @@ body{
   font-size: 480%;
   padding-bottom: 0.5%;
 }
-
 .container:hover .a {
   filter: blur(3px);
 }
-
 .container:hover .middle {
   opacity: 1;
 }
