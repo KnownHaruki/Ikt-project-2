@@ -14,8 +14,7 @@ img{
     background-image: url(../Sources/szepkilato_2.jpg);
     background-size: 98.3vw ;
     background-repeat: no-repeat;
-    border-radius: 15px;
-    
+    border-radius: 20px;
 }
 #title_table{
     width: 100%;
@@ -30,6 +29,7 @@ th, td{
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
+    padding-top: 1vh;
 }
 #homebtn{
     width: 17%;
@@ -78,6 +78,7 @@ dt{
 hr{
     border: #0fc268 solid 2px;
     width: 80vw;
+    border-radius: 5px;
 }
 h3{
     text-indent: 0.5%;
