@@ -50,34 +50,34 @@ th, td{
 /*!     Nav     */
 nav{
     height: 1500px;
-    width: 30vw;
+    width: 10vw;
+    text-align: center;
+    float: left;
 }
 dl{
     position:sticky; 
     top:3px;
 }
 dt{
-    font-size: 145%;
+    font-size: 2.5vh;
     line-height: 1.9;
-}
-#site_navigation{
-    width: 10%;
-    float: left;
+    width: 100%;
 }
 .nav_link{
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: #0fc268bb;
     text-shadow: 0.5px 0.5px 4px rgb(175, 175, 175);
-    padding: 2.5%;
-    padding-left: 3%;
-    padding-right: 4%;
+    padding: 0.4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     border-radius: 7px;
 }
 
 /*!     Main        */
 hr{
     border: #0fc268 solid 2px;
+    width: 80vw;
 }
 h3{
     text-indent: 0.5%;
@@ -98,6 +98,7 @@ p{
         height: 107%;
         margin-left: 20px;
     }
+
 #tabor_img-div{
     height: 10%;
     width: 30%;
@@ -105,15 +106,40 @@ p{
 }
     #tabor_img{
         width: 97%;
+        margin-bottom: 2vh;
     }
+
 #kilato_img-div{
     height: 30vh;
-    width: 30%;
+    width: 45%;
     float: right;
 }
-#kilato_img{
-    width: 96%;
-    margin-left:20px;
+    #kilato_img{
+        width: 96%;
+        margin-left:20px;
+        }
+
+#forras_img-div{
+    width: 20vw;
+    float: left;
+    margin-right: 1vw;
+}
+    #forras_img{
+        width: 100%;
+    }
+
+#paragraph_6{
+    float: left;
+    width: 40vw;
+}
+#badacsony_img-div{
+    width: 20vw;
+    float: left;
+    margin-top: 2.9vh;
+    margin-left: 1vw;
+}
+    #badacsony_img{
+        width: 100%;
     }
 #jumpimg {
     width: 15%;
