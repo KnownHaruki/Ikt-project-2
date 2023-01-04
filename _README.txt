@@ -1,0 +1,1 @@
+Megnyitás esetén az "Utazás Balatongyörökre > HTML > CORE > base.html" fáljt Live Server segitségéven nyissa meg (online scriptek miatt)
