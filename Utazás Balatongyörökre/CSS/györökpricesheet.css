@@ -127,8 +127,9 @@ aside{
 }
 #js_h1{
     background-color: #0fc268bb;
-    border-radius: 6px;
-    margin-inline: 1vw;
+    border-radius: 10px;
+    margin-inline: 5%;
+    margin-top: 4%;
     padding-top: 0.2vh;
     font-size: 160%;
     color: white;
@@ -136,7 +137,7 @@ aside{
 }
 #p_t-2{
     background-color: #0fc268bb;
-    border-radius: 6px;
+    border-radius: 10px;
     margin-inline: 2.8vw;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
@@ -144,20 +145,7 @@ aside{
     font-size: 120%;
     text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
 }
-#napi_int{
-    background-color: #0fc268bb;
-    border: 2px rgb(71, 71, 71) solid;
-    width: 13vw;
-    height: 2.9vh;
-    border-radius: 9px;
-    margin-inline: 1vw;
-    margin-bottom: 0.8vw;
-    color: white;
-    font-size: 120%;
-    text-align: center;
-    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
-}
-#napi_ind{
+#napi_in{
     background-color: #0fc268bb;
     border: 2px rgb(71, 71, 71) solid;
     width: 13vw;
@@ -172,8 +160,8 @@ aside{
 }
 #js_h2{
     background-color: #0fc268bb;
-    border-radius: 6px;
-    margin-inline: 4vw;
+    border-radius: 10px;
+    margin-inline: 30%;
     padding-top: 0.5vh;
     padding-bottom: 0.3vh;
     color: white;
@@ -181,8 +169,18 @@ aside{
 }
 #p_t-1{
     background-color: #0fc268bb;
-    border-radius: 6px;
-    margin-inline: 2vw;
+    border-radius: 10px;
+    margin-inline: 5%;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    color: white;
+    font-size: 120%;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
+}
+#p_d-1{
+    background-color: #0fc268bb;
+    border-radius: 10px;
+    margin-inline: 19%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;
@@ -191,8 +189,9 @@ aside{
 }
 #p_t-3{
     background-color: #0fc268bb;
-    border-radius: 6px;
+    border-radius: 10px;
     margin-inline: 3.5vw;
+    margin-bottom: 5%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;
