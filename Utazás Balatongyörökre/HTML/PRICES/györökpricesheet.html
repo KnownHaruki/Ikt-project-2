@@ -26,8 +26,8 @@
                             <button class="dropbtn">Menü</button>
                             <div class="dropdown-content">
                                 <a href="../CORE/base.html">Főoldal</a>
-                                <a href="../aboutus.html">Rólunk</a>
                                 <a href="../PLACES/györök.html">Györök</a>
+                                <a href="../aboutus.html">Rólunk</a>
                             </div>
                         </div>
                     </td>
@@ -51,50 +51,13 @@
         </nav>
 <!--Main-->
         <main id="main_div">
-            <table id="table_left">
-                <tr>
-                    <td ><div class="pn">Vonat Balatongyörökre :</div></td>
-                </tr>
-                <tr>
-                    <td><div class="ps">Vonat indulások :<br> Déli pályaudvarból minden óra 35 perckor</div></td>
-                </tr>
-                <tr>
-                    <td><div class="pn">Utazási idő: 2 óra 30 perc</div></td>
-                </tr>
-                <tr>
-                    <td><div class="ps">Vonat indulások :<br> Kesztheylről minden óra 10 perckor</div></td>
-                </tr>
-                <tr>
-                    <td><div class="pn">Utazási idő: 0 óra 20 perc</div></td>
-                </tr>
-            </table>
-            <table id="table_right">
-                <tr>
-                    <td><div class="pn">Vonat Budapestre :</div></td>
-                </tr>
-                <tr>
-                    <td><div class="ps">Vonat indulása :<br> Balatongyörökről minden óra 30 perckor</div></td>
-                </tr>
-                <tr>
-                    <td><div class="pn">Utazási idő: 0 óra 20 perc</div></td>
-                </tr>
-                <tr>
-                    <td><div class="ps">Vonat indulások :<br> Keszthelyről minden óra 48 perckor</div></td>
-                </tr>
-                <tr>
-                    <td><div class="pn">Utazási idő: 2 óra 30 perc</div></td>
-                </tr >
-            </table>
-
-
-
             <table id="prog_table">
                 <tr class="prog_tr">
                     <td class="prog_img_td" style="background-image:url(../../Sources/látnivalokepek/hajo.png);"></td>
                     <td>
                         <h3><a href="https://bahart.hu/hu" target="_blank"><span>Balatongyöröki hajókirándulás</span></a></h3> 
                         <ul>
-                            <li>Hajóút a Badacsonyba 10:45 kor indul és vissza 15:50 kor</li>
+                            <li>Hajóút a Badacsonyba</li>
                             <li>1800Ft / Fő</li>
                             <li>Elérés: séta (33p)</li>
                         </ul>
@@ -194,6 +157,7 @@
                     </td>
                 </tr>
             </table>
+
             <div id="paragraph1">
                 <h2>Ellátás és szobák:</h2>
                     <h3>Kirándulóhelyek:</h3>
@@ -295,8 +259,8 @@
 <!--JS-->
             <aside>
                 <div class="checkout" id="calc">
-                    <h1 id="js_h1">Utazás (oda, vissza),<br>szállás + étkezés ára</h1>
-                        <p id="p_t-2" class="napi_in_val" data-price="6000">Add meg hány napig akar maradni a táborban:</p>
+                    <h1 id="js_h1">Utazás ára</h1>
+                        <p id="p_t-2" class="napi_in_val" data-price="6000"> Éjszakák szám :</p>
                         <input id="napi_in" type="text" class="napi_in" value="">
                     <hr>
                         <h2 id="js_h2">Kisérők :</h2>
@@ -304,7 +268,7 @@
                         <p id="p_t-3"><span id="napi_t"></span> /fő</p>
                     <hr>
                         <h2 id="js_h2">Diákok :</h2>
-                        <p id="p_d-1">7,420Ft + 6000Ft/éj</p>
+                        <p id="p_d-1">7,420Ft (jegy) + 6000Ft/éj</p>
                         <p id="p_t-3"><span id="napi_d"></span> /fő</p>
                 </div>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -322,6 +286,40 @@
                         });
                     });
                 </script>
+                <table id="table_left">
+                    <tr>
+                        <td ><div class="pn">Vonat Balatongyörökre :</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="ps">Vonat indulások :<br> Déli pályaudvarból <br>minden óra 35 perckor</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="pn">Utazási idő: 2 óra 30 perc</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="ps">Vonat indulások :<br> Kesztheylről <br>minden óra 10 perckor</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="pn">Utazási idő: 0 óra 20 perc</div></td>
+                    </tr>
+                </table>
+                <table id="table_right">
+                    <tr>
+                        <td><div class="pn">Vonat Budapestre :</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="ps">Vonat indulása :<br> Balatongyörökről<br> minden óra 30 perckor</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="pn">Utazási idő: 0 óra 20 perc</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="ps">Vonat indulások :<br> Keszthelyről<br> minden óra 48 perckor</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="pn">Utazási idő: 2 óra 30 perc</div></td>
+                    </tr >
+                </table>
             </aside>
 <!--Footer-->
         <footer>
@@ -329,7 +327,7 @@
         </footer>
         <div id="al_div">
             <div id="al_div_p">
-                <p>Az oldalt létrehozta: Nagy Endre és Harazin Noelㅤㅤㅤㅤㅤㅤ © 2023 Auróra csapat & BMSZC Neumann János InformatikaiTechnikum</p>
+                <p>Az oldalt létrehozta: Nagy Endre és Harazin Noelㅤㅤㅤㅤㅤㅤ © 2023 Auróra csapat & BMSZC Neumann János Informatikai Technikum</p>
             </div>
         </div>
     </body>

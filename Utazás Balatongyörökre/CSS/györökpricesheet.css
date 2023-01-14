@@ -125,6 +125,7 @@ dt{
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 7px;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 .nav_link:hover{
     background-color: #008844bb;
@@ -144,7 +145,7 @@ p{
 }
 main{
     margin-left: 0.5%;
-    width: 60%;
+    width: 70%;
     float: left;
 }
 #paragraph1 {
@@ -159,37 +160,16 @@ main{
 	float: left;
 	width: 50%;
 }
-/*!     Vonat táblázat      */
-#table_left {
-    float: left;
-    width: 41%;
-}
-#table_right {
-    float: right;
-    width: 41%;
-}
-.pn{
-    background-color: rgba(17, 187, 102, 0.705);
-    text-align: center;
-    border-radius: 10px;
-    line-height: 150%;
-}
-.ps{
-    background-color: rgba(17, 187, 102, 0.274);
-    text-align: center;
-    border-radius: 10px;
-    line-height: 150%;
-}
 
 /*!     Program táblázat      */
 #prog_table{
-    margin-left: -1%;
+    float: left;
     border-spacing: 1rem;
-    width: 120%;
+    width: 70%;
 }
 .prog_tr{
-    outline: 2px solid #0fc268;
-    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
+    border-radius: 17px;
 }
 
 .prog_img_td{
@@ -197,8 +177,8 @@ main{
     width: 10em;
     background-size: 100% ;
     background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
 }
 #prog_table h3{
     text-align: center;
@@ -224,11 +204,36 @@ main{
     border-radius: 10px;
 }
 
+/*!     Vonat táblázat      */
+#table_left {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 100%;
+}
+#table_right {
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 100%;
+}
+.pn{
+    background-color: rgba(17, 187, 102, 0.705);
+    text-align: center;
+    border-radius: 10px;
+    line-height: 150%;
+}
+.ps{
+    background-color: rgba(17, 187, 102, 0.274);
+    text-align: center;
+    border-radius: 10px;
+    line-height: 150%;
+}
+
 /*!     Aside / JS      */
 hr{
     border: 1px solid #0fc268 ;
     width: 65%;
     border-radius: 5px;
+    margin-bottom: -3%;
 }
 aside{
     float: right;
@@ -239,9 +244,10 @@ aside{
 .checkout {
     position:sticky; 
     top:1vh;
-    margin-top: 1vh;
+    margin-top: 5%;
     width: 100%;
-	border: 2px solid #0fc268;
+    background-color: white;
+	box-shadow: 2px 2px 10px rgb(180, 180, 180);
 	text-align: center;
 	display: inline-block;
     border-radius: 15px;
@@ -250,7 +256,8 @@ aside{
     background-color: #0fc268bb;
     border-radius: 10px;
     margin-inline: 5%;
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-bottom: -3%;
     padding-top: 0.2vh;
     font-size: 160%;
     color: white;
@@ -260,6 +267,7 @@ aside{
     background-color: #0fc268bb;
     border-radius: 10px;
     margin-inline: 2.8vw;
+    margin-bottom: 3%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;
@@ -273,7 +281,7 @@ aside{
     height: 2.9vh;
     border-radius: 9px;
     margin-inline: 1vw;
-    margin-bottom: 0.8vw;
+    margin-bottom: 1%;
     color: white;
     font-size: 120%;
     text-align: center;
@@ -286,6 +294,7 @@ aside{
     background-color: #0fc268bb;
     border-radius: 10px;
     margin-inline: 30%;
+    margin-bottom: -1%;
     padding-top: 0.5vh;
     padding-bottom: 0.3vh;
     color: white;
@@ -295,6 +304,7 @@ aside{
     background-color: #0fc268bb;
     border-radius: 10px;
     margin-inline: 5%;
+    margin-bottom: -1%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;
@@ -304,7 +314,8 @@ aside{
 #p_d-1{
     background-color: #0fc268bb;
     border-radius: 10px;
-    margin-inline: 19%;
+    margin-inline: 9%;
+    margin-bottom: -1%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;
@@ -315,7 +326,7 @@ aside{
     background-color: #0fc268bb;
     border-radius: 10px;
     margin-inline: 3.5vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     color: white;

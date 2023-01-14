@@ -121,6 +121,7 @@ dt{
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 7px;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 .nav_link:hover{
     background-color: #008844bb;
@@ -147,30 +148,35 @@ p{
     height: 20rem;
     margin-left: 1%;
     margin-bottom: 1%;
+    box-shadow: 2px 2px 10px rgb(161, 161, 161);
 }
 #tabor_img{
     float: left;
     height: 20rem;
     margin-right: 1%;
     margin-bottom: 1%;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 #kilato_img{
     float: right;
     height: 20rem;
     margin-left: 1%;
     margin-bottom: 1%;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 #forras_img{
     float: left;
     height: 15rem;
     margin-right: 1%;
     margin-bottom: 1%;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 #badacsony_img{
     float: right;
     height: 15rem;
     margin-left: 1%;
     margin-bottom: 1%;
+    box-shadow: 2px 2px 10px rgb(180, 180, 180);
 }
 #paragraph_6{
     float: left;
