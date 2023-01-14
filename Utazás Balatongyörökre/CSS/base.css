@@ -10,7 +10,7 @@ body{
 .a{
   transition: 0.4s ease;
   display: block;
-  height: 32vh;
+  height: 30.5vh;
   width: 100vw;
   object-fit: cover;
 }
