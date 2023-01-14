@@ -102,6 +102,30 @@ main{
 	float: left;
 	width: 50%;
 }
+#table_left {
+    float: left;
+    width: 36%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#table_right {
+    float: right;
+    width: 36%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#tableholder {
+    text-align: center;
+}
+.paratlan{
+    background-color: rgba(17, 187, 102, 0.705);
+    padding: 5px;
+}
+.paros{
+    background-color: rgba(17, 187, 102, 0.274);
+    padding: 5px;
+}
+
 
 /*!     Aside / JS      */
 hr{
