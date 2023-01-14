@@ -144,7 +144,20 @@ aside{
     font-size: 120%;
     text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
 }
-#napi_in{
+#napi_int{
+    background-color: #0fc268bb;
+    border: 2px rgb(71, 71, 71) solid;
+    width: 13vw;
+    height: 2.9vh;
+    border-radius: 9px;
+    margin-inline: 1vw;
+    margin-bottom: 0.8vw;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 4px rgb(134, 134, 134);
+}
+#napi_ind{
     background-color: #0fc268bb;
     border: 2px rgb(71, 71, 71) solid;
     width: 13vw;

@@ -21,9 +21,9 @@
         <header id="fejlec">
             <table id="title_table">
                 <tr>
-                    <td><a href="../CORE/base.html"><img src="../../Sources/home.png" alt="home" class="head_link" id="homebtn"></a></td>
+                    <td><a href="../CORE/base.html" alt="Home" title="Home"><img src="../../Sources/home.png" alt="home" class="head_link" id="homebtn"></a></td>
                     <td rowspan="2"><h1 id="head_h1">Szállás és utazási ajánlat Balatongyörökre</h1></td>
-                    <td><a href="../aboutus.html"><img src="../../Sources/user_circle.png" alt="user" class="head_link" id="aboutbtn"></a></td>
+                    <td><a href="../aboutus.html" alt="Rólunk" title="Rólunk"><img src="../../Sources/user_circle.png" alt="user" class="head_link" id="aboutbtn"></a></td>
                 </tr>
                 <tr>
                     <td><a href="https://balatongyorok.hu/" class="head_link" target="_blank">Helyszín</a></td>
@@ -143,30 +143,31 @@
 <!--JS-->
             <aside>
                 <div class="checkout" id="calc">
-                    <h1 id="js_h1">Utazás,<br>szállás + étkezés ára</h1>
+                    <h1 id="js_h1">Utazás (oda, vissza),<br>szállás + étkezés ára</h1>
                         <p id="p_t-2" class="napi_in_val" data-price="6000">Tábor hossza ( éj ) : </p>
-                        <input id="napi_in" type="text" class="napi_in" value="">
                     <hr>
-                        <h2 id="js_h2">Tanároknak :</h2>
-                        <p id="p_t-1">6000 Ft +( 6000 Ft / éj )</p>
-                        <p id="p_t-3"><span id="napi_t"></span> / fő</p>
+                        <h2 id="js_h2">Gondviselők :</h2>
+                        <input id="napi_int" type="text" class="napi_int" value="">
+                        <p id="p_t-1">3,710Ft(50% jegy) + 6000Ft/éj<br>=9710Ft/fő. </p>
+                        <p id="p_t-3"><span id="napi_t"></span> /fő</p>
                     <hr>
-                        <h2 id="js_h2">Diákoknak :</h2>
-                        <p id="p_t-1">5000 Ft +( 6000 Ft / éj )</p>
-                        <p id="p_t-3"><span id="napi_d"></span> / fő</p>
+                        <h2 id="js_h2">Diákok :</h2>
+                        <input id="napi_ind" type="text" class="napi_ind" value="">
+                        <p id="p_t-1">7,420Ft + 6000Ft/éj<br>=13,420Ft/fő. </p>
+                        <p id="p_t-3"><span id="napi_d"></span> /fő</p>
                 </div>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
                 <script>
                     $(document).ready(function () {
-                        $(".checkout").on("keyup", ".napi_in", function () {
+                        $(".checkout").on("keyup", ".napi_int", function () {
                             var price = +$(".napi_in_val").data("price");
                             var quantity = +$(this).val();
-                            $("#napi_t").text(price * quantity + 6000 + " Ft");
+                            $("#napi_t").text(price * quantity + 3710 + " Ft");
                         });
-                        $(".checkout").on("keyup", ".napi_in", function () {
+                        $(".checkout").on("keyup", ".napi_ind", function () {
                             var price = +$(".napi_in_val").data("price");
                             var quantity = +$(this).val();
-                            $("#napi_d").text(price * quantity + 5000 + " Ft");
+                            $("#napi_d").text(price * quantity + 7420 + " Ft");
                         });
                     });
                 </script>
