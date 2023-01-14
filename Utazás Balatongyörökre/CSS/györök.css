@@ -7,7 +7,9 @@ body{
 img{
     border-radius: 13px;
 }
-
+a:hover{
+    cursor: pointer;
+}
 /*!     Fejléc      */
 #fejlec{
     width: 100%;

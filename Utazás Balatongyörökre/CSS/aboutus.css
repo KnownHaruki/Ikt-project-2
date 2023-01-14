@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color:deepskyblue;
 }
+a:hover{
+    cursor: pointer;
+}
 
 /*!     Fejléc      */
 #fejlec{
