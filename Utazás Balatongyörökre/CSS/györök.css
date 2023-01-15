@@ -191,11 +191,10 @@ p{
 
 /*!     "Footer"      */
 footer {
-    position: fixed;
-    bottom: 4px;
-    width: 25%;
-    margin-inline: 37.5%;
-    text-align: center;
+    position: sticky;
+    bottom: 1%;
+    width: 23%;
+    margin-left: 39%;
 }
 #foot_a{
     text-decoration: none;
@@ -219,9 +218,21 @@ footer {
     color: white;
     width: 100.95%;
     margin-left: -0.5%;
-
+}
+#al_div_a{
+    color: white;
+    text-decoration: none;
+    margin: -1% 0;
+}
+#al_div_a :hover{
+    background-color: rgb(97, 97, 97);
+}
+#al_div_a_p{
+    padding: 0.4% 0;
+    font-size: 120%;
+    margin:0;
 }
 #al_div_p{
     font-size: 70%;
-    line-height: 5%;
+    line-height: 50%;
 }

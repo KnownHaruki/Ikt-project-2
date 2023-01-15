@@ -163,7 +163,7 @@ main{
 
 /*!     Program táblázat      */
 #prog_table{
-    border-spacing: 2.5em;
+    border-spacing: 2em;
     width: 70%;
 }
 #prog_table td{
@@ -247,7 +247,7 @@ main{
     width: 100%;
 }
 #table_right {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 1%;
     width: 100%;
 }
@@ -401,9 +401,21 @@ footer {
     color: white;
     width: 100.95%;
     margin-left: -0.5%;
-
+}
+#al_div_a{
+    color: white;
+    text-decoration: none;
+    margin: -1% 0;
+}
+#al_div_a :hover{
+    background-color: rgb(97, 97, 97);
+}
+#al_div_a_p{
+    padding: 0.4% 0;
+    font-size: 120%;
+    margin:0;
 }
 #al_div_p{
     font-size: 70%;
-    line-height: 5%;
+    line-height: 50%;
 }
