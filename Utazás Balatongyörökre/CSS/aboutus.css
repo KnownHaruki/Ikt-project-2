@@ -82,3 +82,29 @@ p{
     display: flex;
     float: right;
 }
+#teampic {
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    width: 10%;
+    margin-top: 1%;
+}
+#banner {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+#al_div{
+    background-color: rgb(44, 44, 44);
+    float: left;
+    text-align: center;
+    color: white;
+    width: 100.95%;
+    margin-left: -0.5%;
+
+}
+#al_div_p{
+    font-size: 70%;
+    line-height: 5%;
+}
